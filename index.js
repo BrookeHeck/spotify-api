@@ -2,7 +2,7 @@
 
 const getSongUri = require('./getSongUri');
 
-getSongUri('folsom prison blues', 'johnny cash')
+getSongUri('hello', 'adele')
   .then(response => {
     console.log(response);
   })
